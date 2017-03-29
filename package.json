@@ -1,0 +1,22 @@
+{
+  "name": "the7-child",
+  "version": "0.0.1",
+  "description": "Basic Child Theme for the-7 theme",
+  "main": "index.js",
+  "author": "Alipio Gabriel",
+  "license": "GPL-2.0",
+  "homepage": "http://creativemedia.ph",
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
+    "run-sequence": "^1.2.2"
+  },
+  "devDependencies": {
+    "vinyl-ftp": "^0.6.0"
+  }
+}

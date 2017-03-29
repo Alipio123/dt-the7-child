@@ -1,0 +1,141 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+# Sass Variables
+# Body
+# Typography
+# Top Bar
+# Navigation
+# Content
+# Static Hero
+# Footer
+# Media
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Sass Variables
+--------------------------------------------------------------*/
+
+
+$box_shadow: 0px 3px 6px 2px rgba(204, 204, 204, 0.22);
+$font_family_montserrat: "Montserrat", Helvetica, Arial, Verdana, sans-serif;
+$font_family_georgia: Georgia, Times, "Times New Roman", serif;
+
+$font_small: 12px;
+$font_standard: 14px;
+$font_medium: 18px;
+$font_large: 24px;
+
+$gutter_xs: 10px;
+$gutter_sm: 20px;
+$gutter_md: 40px;
+
+$green: #58b178;
+$grey: rgba(0, 0, 0, 0.5);
+$light-grey: rgba(0, 0, 0, 0.8);
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+/*--------------------------------------------------------------
+# BODY
+--------------------------------------------------------------*/
+
+html, body, body.page, .wf-container > * {
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+h1,h2,h3,h4,h5,h6{
+	font-family: $font_family_georgia;
+}
+
+h1{
+	font-size: $font_large;
+	line-height: $font_large + 10;
+}
+
+h2{
+	font-size: $font_large - 2;
+	line-height: ($font_large - 2) + 10;
+}
+
+h3{
+	font-size: $font_large - 4;
+	line-height: ($font_large - 4) + 10;
+}
+
+h4{
+	font-size: $font_large - 6;
+	line-height: ($font_large - 6) + 10;
+}
+
+h5{
+	font-size: $font_large - 6;
+	line-height: ($font_large - 6) + 10;
+}
+
+h5{
+	font-size: $font_large - 8;
+	line-height: ($font_large - 8) + 10;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+footer{
+
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+
+
+/*RESPONSIVE BREAKING POINT*/
+@media screen and (max-width: 990px){
+}
+
+/*iPAD Vertical View*/
+@media screen and (max-width: 768px){
+}
+
+/*IPHONE 6 Plus HORIZONTAL VIEW*/
+@media screen and (max-width: 736px){
+
+}
+
+/*IPHONE 6 HORIZONTAL VIEW*/
+@media screen and (max-width: 667px){
+}
+
+/*IPHONE 5 HORIZONTAL VIEW*/
+@media screen and (max-width: 568px){
+    
+}
+
+/*IPHONE 6 Plus VERTICAL VIEW*/
+@media screen and (max-width: 414px){
+    
+}
+
+/*IPHONE 6 VERTICAL VIEW*/
+@media screen and (max-width: 375px){
+    
+}
+
+/*IPHONE 5 VERTICAL VIEW*/
+@media screen and (max-width: 320px){
+    
+}
+
