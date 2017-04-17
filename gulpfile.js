@@ -10,7 +10,7 @@ var user = '';
 var password = '';  
 var host = '';  
 var port = 21;  
-var localFilesGlob = ['./**/*','!node_modules','!node_modules/**','!package.json','!sftp-config.json','!sass','!sass/**','!gulpfile.js']; //! meaning exclude 
+var localFilesGlob = ['./**/*','!node_modules','!node_modules/**','!package.json','!sftp-config.json','!gulpfile.js']; //! meaning exclude 
 var remoteFolder = '/'
 
 // Defining requirements
