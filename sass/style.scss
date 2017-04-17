@@ -51,6 +51,13 @@ $light-grey: rgba(0, 0, 0, 0.8);
           box-shadow: $box-shadow;
 }
 
+@mixin transition($transition){
+  -webkit-transition: all $transition ease-in-out;
+  -moz-transition: all $transition ease-in-out;
+  -o-transition: all $transition ease-in-out;
+  transition: all $transition ease-in-out;
+}
+
 /*--------------------------------------------------------------
 # BODY
 --------------------------------------------------------------*/
